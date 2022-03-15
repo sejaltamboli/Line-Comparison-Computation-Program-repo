@@ -8,7 +8,12 @@ public class LineComparisonProgram {
         if(lengthofline1 == lengthofline2) {
             System.out.println("Both Lines are Equal.");
         } else {
-            System.out.println("Both Lines are not Equal.");
+            //UC-3 Comparison of two lines
+            if(lengthofline1 > lengthofline2) {
+                System.out.println("1st Line is Greater. ");
+            } else {
+                System.out.println("2nd Line is Greater. ");
+            }
         }
     }
     public static void main(String[] args) {
